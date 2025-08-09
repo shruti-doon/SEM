@@ -1,0 +1,29 @@
+
+# Step 1: Input Collection - Required Fields Only
+
+# Brand's Website: [Insert URL]
+brand_website: "https://shop.timexindia.com/collections/go-forward?utm_source=google&utm_medium=cpc&utm_campaign=pmax_new_go_forward&utm_source=google&utm_medium=cpc&utm_campaign=22422418227&utm_content=&utm_term=&nbt=nb%3Aadwords%3Ax%3A22422418227%3A%3A&nb_adtype=&nb_kwd=&nb_ti=&nb_mi=&nb_pc=&nb_pi=&nb_ppi=&nb_placement=&nb_li_ms=&nb_lp_ms=&nb_fii=&nb_ap=&nb_mt=&gad_source=1&gad_campaignid=22422419256&gclid=CjwKCAjw49vEBhAVEiwADnMbbDdeaXNNhPn_BI625jH2MeBuRp6CC-57jyT8ZkI6fH4NsdFpfkOnhBoCpGAQAvD_BwE&usf_sort=bestselling"
+
+# Brand's Competitor Website: [Insert URL]  
+competitor_website: "https://www.titan.co.in/shop/titan-sale?utm_source=google&utm_medium=cpc&utm_campaign=MS_Titan_Google_Brand-search_TitanwatchesOpenTargeting2_Exact_Perf_010720&utm_content=20738754177&gad_source=1&gad_campaignid=20738754177&gclid=CjwKCAjw49vEBhAVEiwADnMbbJRDGpd3vxYKGH6MvCakXnfkW58MURgBEAj3NXcFOe0xOup-GrLY5BoC2TwQAvD_BwE"
+
+# Service Locations: [List of cities/regions]
+service_locations:
+  - "UNITED STATES"
+  
+
+# Ad Budgets:
+# Shopping Ads Budget: [Insert $ amount]
+shopping_ads_budget: 5000
+
+# Search Ads Budget: [Insert $ amount]
+search_ads_budget: 8000
+
+# PMax Ads Budget: [Insert $ amount]
+pmax_ads_budget: 3000 
+
+# Dynamic assumptions required by analysis
+assumptions:
+  ctr: 0.01              # 1% CTR
+  conversion_rate: 0.02  # 2% CVR
+  max_cpc_cap: 2.0       # CPC cap 
