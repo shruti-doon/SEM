@@ -7,7 +7,7 @@
 
 ## 2) Setup
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/shruti-doon/SEM.git
 cd SEM
 python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
