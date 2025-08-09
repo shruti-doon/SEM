@@ -17,16 +17,10 @@ pip install -r requirements.txt
 Install Chrome/Chromium (one-time):
 - Ubuntu/Debian:
   - `sudo apt update && sudo apt install -y chromium-browser || sudo apt install -y chromium`
-- Fedora/RHEL:
-  - `sudo dnf install -y chromium`
-- Arch:
-  - `sudo pacman -S --noconfirm chromium`
-- macOS (Homebrew):
-  - `brew install --cask google-chrome`  (or `brew install --cask chromium`)
+
 - Windows:
   - Install Chrome from https://www.google.com/chrome/
 
-Driver note: ChromeDriver is auto-installed at runtime via `chromedriver-autoinstaller`. No manual driver setup needed.
 
 ## 3) Configure
 Create `.env` in project root:
@@ -34,36 +28,12 @@ Create `.env` in project root:
 GEMINI_API_KEY=your-gemini-api-key
 ```
 
-Edit `config.yaml`:
-```yaml
-brand_website: "https://www.fastrack.in/"
-competitor_website: "https://www.titan.co.in/"
-service_locations:
-  - "INDIA"
-
-shopping_ads_budget: 5000
-search_ads_budget: 8000
-pmax_ads_budget: 3000
-
-assumptions:
-  ctr: 0.01
-  conversion_rate: 0.02
-  max_cpc_cap: 2.0
-```
-
+Edit `config.yaml`
 ## 4) Run
 ```bash
 python run_sem_analysis.py
 ```
-On success, it prints a single line with the output folder name, e.g.:
-```
-sem_deliverables_YYYYMMDD_HHMMSS
-```
-
-List outputs:
-```bash
-ls -la sem_deliverables_YYYYMMDD_HHMMSS
-```
+On success, it prints a single line with the output folder name
 
 ## 5) Outputs
 Inside the deliverables folder:
